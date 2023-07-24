@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import reactor.core.publisher.Sinks;
 import reactor.test.StepVerifier;
 
-class SinksDemo {
+class SinksDemoTest {
 
     @Test
     void replayLatestReplays() {
