@@ -65,7 +65,7 @@ class SinksDemo {
     }
 
     @Test
-    void onBackpressureBufferDoesReplaysOnlyToFirstSubscriber() {
+    void onBackpressureBufferDoesReplayOnlyToFirstSubscriber() {
         boolean autoCancel = false;
         Sinks.Many<String> sink = Sinks
                 .many()
